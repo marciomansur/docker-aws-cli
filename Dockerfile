@@ -5,5 +5,7 @@ RUN pip install awscli --upgrade --user
 
 ENV PATH /root/.local/bin:$PATH
 
+VOLUME ["/data"]
+
 ENTRYPOINT []
 CMD []
